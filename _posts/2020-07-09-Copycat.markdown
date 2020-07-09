@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "A Simple Experiment on Human Inference"
+date:   2020-07-09
+categories: jekyll update
+---
+The experiment asks subjects questions on strings consisting of alphabets. 
+
+A typical question is like this: if `abc` is transformed to `abd`, what is `ijk` transformed to?
+
+While we know this is not determinate question, most people would intuite the answer as `ijl`.
+
+At the first glance, the question doesn't make any sense because there are many other possible answers. If we consider the rule *transform the last letter to `d`*, then the answer would be `ijd`. We may also consider the rule *transform the two last letters to `bc`*, then the answer would be `ibc`. 
+
+However, the reality is that most people would first come up with the answer `ijl`, which at first seems intuitive but then raises question: why is that?
+
+Human minds somehow determine that among all gazillion possible answers this is the most suitable one. This I think is into the same category of cognitive phenomena where we assume the continuity of an object.
+
+
+
+Then the first methodology engendered by this thought is to model the ideal in human intuition. For example, there seems to be an intrinsic ordering in English language that emphasizes the order of letters, from *a*, *b*, *c* up to *z*, that English native speakers acquire at their infantry. What we need to do is to encode these kinds of informations into a model, at the end we can emulate the human reasoning. One problem with these kinds of approaches is that by hard-coding acquired structure and knowledge, they are themselves static and unsuitable for change.
+
+
+
+A second wave comes with machine learning saying that to give this answer, what human normally do is to compare this situation with what they are presented before, in other terms, human reasoning is data-driven. This thought has been dominant during recent years due to the successful application of machine learning in various problems.
+
+
+
+Up till here, there is nothing really surprising. My question is, have I really seen this question before? Is this really just interpolation that we are doing, or do we need some extrapolation, something that we don't acquire along the course of living, but is hard-coded into our cognitive ability as prior, due to the immense history of natural selection?
+
+
+
+What should `xyz` be transformed into? This question, unlike the previous one, is quite tricky. If we intuite in the same as before, we need to find what is the successor of the letter `z` and indeed there is none. Some answers are `xy`, `xya`.
+
+
+
+One of the answers that is quite hard to find, but once found, satisfying. This is the answer `wyz`. A reversed order with a symmetric transformation rule -- instead of replacing the letter with its successor, replace it with its preceder if it is at the beginning of the string.
