@@ -14,7 +14,7 @@ In the paradigm of network coding, between Node $1$ and Node $2$ we can communic
 
 
 
-![Screenshot 2020-07-18 at 04.00.30](/Users/Datoclement1/Documents/Datoclement_github_io/Datoclement.github.io/_posts/_resources/Butterfly-Network.png)
+![Screenshot 2020-07-18 at 04.00.30](/_posts/_resources/Butterfly-Network.png)
 
 
 
