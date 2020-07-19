@@ -16,7 +16,7 @@
 title: Dato's blog
 email: 70664914@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  Description is not found, yet.
+  This blog is only meant to be a personal note on unlimited subjects of matter. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
